@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
               ]),
               child: CalendarWeek(
                 controller: _controller,
-                height: 110,
+                height: 120,
                 showMonth: true,
                 minDate: DateTime.now().add(
                   Duration(days: -365),
